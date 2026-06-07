@@ -22,6 +22,8 @@ export default function BooksPage() {
   const [page, setPage] = useState(1);
   const [limit] = useState(10);
   const [pagination, setPagination] = useState({
+    page: 1,       
+    limit: 10,     
     total: 0,
     totalPages: 1,
     hasNext: false,
